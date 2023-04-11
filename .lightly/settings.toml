@@ -1,0 +1,10 @@
+[[ports]]
+port = 5000
+is_internal = false
+active = true
+protocol = "http"
+[languages.python]
+language = "python"
+[languages.python.run."main.py"]
+name = "main.py"
+path = "/workspace/PythonProject/main.py"
